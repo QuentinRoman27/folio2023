@@ -1,0 +1,48 @@
+#header {
+  height: 100vh;
+}
+
+#banner {
+  background-image: url('../../images/header-circle.png'), url('../../images/header-triangle.png');
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat, repeat-y;
+  background-position: center;
+  height: 100%;
+}
+
+@media (max-width: 768px) {
+  #banner {
+    background-image: url('../../images/header-mobile.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    height: 100%;
+  }
+}
+
+@media (max-width: 450px) {
+  #banner {
+    background-image: url('../../images/header-mob.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+    height: 100%;
+  }
+}
+
+#banner > .content > .geometric-element {
+  opacity: 0.3;
+  backdrop-filter: blur(24px);
+  position: absolute;
+  background: rgba(162, 188, 239, 0.15);
+}
+
+#banner > .content > #element-1 {
+  width: 100px;
+  height: 100px;
+  left: calc(50% - 100px/2 - 104px);
+  top: calc(50% - 100px/2 + 495.76px);
+}

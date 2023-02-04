@@ -1,0 +1,29 @@
+#contact {
+  background-image: url('../../images/contact-back.png');
+  background-size: cover;
+  border-radius: 32px;
+  max-width: 1000px;
+  min-height: 500px;
+}
+
+#contact > .icons > a {
+  color: #6A3A99;
+  margin: 0 16px;
+  font-size: 40px;
+}
+
+#contact > .icons > a:hover {
+  color: rgb(72, 36, 107);
+}
+
+#contact > a {
+  color: white;
+  padding: 12px 20px;
+  background: #6A3A99;
+  box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.15);
+  border-radius: 65px;
+}
+
+#contact > a:hover {
+  background: rgb(72, 36, 107);
+}

@@ -1,0 +1,30 @@
+.project > .content-side > h3 {
+  color: #4F3668;
+  opacity: 0.7;
+}
+
+.project > .image-side {
+  object-fit: cover;
+  min-width: 350px;
+}
+
+.project > .image-side:hover {
+  transform: scale(1.05);
+  transition: 0.3s;
+}
+
+.project > .content-side > .flex > a {
+  color: #4F3668;
+  opacity: 0.7;
+}
+
+.project > .content-side > .flex > a:hover {
+  opacity: 1;
+}
+
+.project > .content-side > .icons > .icon {
+  width: 30px;
+  height: 30px;
+  margin-right: 18px;
+  margin-top: 10px;
+}

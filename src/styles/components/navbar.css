@@ -1,0 +1,39 @@
+#navbar > .flex > .right-content > .contact {
+  color: white;
+  padding: 8px 16px;
+  background: #6A3A99;
+  box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.15);
+  border-radius: 65px;
+}
+
+#navbar > .flex > .right-content > .contact:hover {
+  background: rgb(72, 36, 107);
+}
+
+#navbar > .flex > .right-content > a:active {
+  color: white;
+  background: #6A3A99;
+  box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.15);
+  border-radius: 65px;
+}
+
+#navbar > .flex > .right-content > button:hover {
+  cursor: pointer;
+  color: white;
+  background: #6A3A99;
+  box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.15);
+  border-radius: 65px;
+}
+
+#navbar > .flex > .right-content > button:focus {
+  outline: none;
+}
+
+#navbar > .flex > button:hover {
+  cursor: pointer;
+  transform: scale(1.03);
+}
+
+#navbar > .flex > button:focus {
+  outline: none;
+}
