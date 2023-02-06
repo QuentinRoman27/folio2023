@@ -1,5 +1,5 @@
 #technologies {
-  background-image: url(../../images/technologies.png);
+  background-image: url(../images/technologies.png);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -9,19 +9,19 @@
 }
 
 #technologies > .container > .type > .back-end {
-  color: #9BA4FF;
+  color: #9ba4ff;
   font-weight: bold;
   margin-left: 24px;
 }
 
 #technologies > .container > .type > .front-end {
-  color: #E3647F;
+  color: #e3647f;
   font-weight: bold;
   margin-left: 24px;
 }
 
 #technologies > .container > .type > .other-tools {
-  color: #B58CEA;
+  color: #b58cea;
   font-weight: bold;
   margin-left: 24px;
 }

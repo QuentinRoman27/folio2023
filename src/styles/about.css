@@ -1,5 +1,5 @@
 #about > .right-content {
-  background: url('../../images/circles-about.png');
+  background: url("../images/circles-about.png");
   background-size: contain;
   max-width: 340px;
   height: 450px;
