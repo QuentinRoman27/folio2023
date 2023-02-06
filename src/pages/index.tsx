@@ -12,7 +12,7 @@ export default function Home() {
     <div>
       <Helmet htmlAttributes={{ lang: "en" }}>
         <meta charSet="utf-8" />
-        <title>Cloe's portfolio</title>
+        <title>Portfolio of Quentin</title>
         <link rel="icon" href="../images/logocloe.png" type="image/png" />
         <meta property="og:image" content="../images/logocloe.png" />
         <meta
@@ -41,10 +41,6 @@ export default function Home() {
           href="https://fonts.googleapis.com/css2?family=Mukta:wght@400;600;700&family=Work+Sans:wght@400;600;700&display=swap"
           rel="stylesheet"
         ></link>
-        <script
-          src="https://kit.fontawesome.com/b0cb6db527.js"
-          crossOrigin="anonymous"
-        ></script>
       </Helmet>
       <main>
         <Header />
