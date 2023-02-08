@@ -29,7 +29,7 @@ export default function About() {
           team player.
         </p>
         <Link
-          href={"https://www.linkedin.com/in/cloe-f/"}
+          href={"https://https://www.linkedin.com/in/quentin-roman-67a35223b//"}
           target="_blank"
           rel="noreferrer"
         >
@@ -40,7 +40,7 @@ export default function About() {
         </Link>
       </div>
       <div className="right-content flex items-center justify-center">
-        <img src="../images/avatar.jpg" alt="avatar" />
+        <img src="../images/avatarquentin.jpg" alt="avatar" />
       </div>
     </div>
   );
