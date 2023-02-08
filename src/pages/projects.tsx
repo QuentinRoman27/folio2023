@@ -1,5 +1,5 @@
-import React from "react"
-import Project from "../components/project"
+import React from "react";
+import Project from "../components/project";
 
 export default function Projects() {
   return (
@@ -17,16 +17,14 @@ export default function Projects() {
 This platform has been built in the Laravel (PHP) framework. I was hired to work on the front end of the project."
         linkSite="https://civi-communaute.info/"
         icons={[
-          "laravel.png",
           "javascript.png",
           "html.png",
-          "sass.png",
+
           "tailwind.png",
-          "elementui.png",
+
           "eslint.png",
-          "babel.png",
+
           "npm.png",
-          "docker.webp",
         ]}
         image="civi.png"
       />
@@ -43,16 +41,13 @@ This platform has been built in the Laravel (PHP) framework. I was hired to work
         linkSite="http://www.corianderplanner.com/"
         linkgit="https://github.com/cloecloe/meal-planning"
         icons={[
-          "ruby.png",
           "javascript.png",
           "html.png",
           "css.png",
           "bootstrap.png",
           "cloudinary.jpg",
-          "algolia.png",
+
           "activerecord.jpg",
-          "heroku.png",
-          "figma.png",
         ]}
         image="coriander-planner.png"
       />
@@ -83,5 +78,5 @@ This platform has been built in the Laravel (PHP) framework. I was hired to work
         image="sportify.png"
       />
     </div>
-  )
+  );
 }

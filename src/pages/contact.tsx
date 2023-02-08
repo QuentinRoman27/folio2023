@@ -1,5 +1,6 @@
 import Link from "next/link";
 import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export default function Contact() {
   return (
@@ -11,15 +12,15 @@ export default function Contact() {
         Interested in a collaboration or learning more?
       </h1>
       <h2 className="my-4">Reach out!</h2>
-      <a href="mailto:cloe.furlan@yahoo.fr" className="my-3">
+      <a href="mailto:quentinroman27@gmail.com" className="my-3">
         cloe.furlan@yahoo.fr
       </a>
       <div className="icons">
-        <Link href="https://www.linkedin.com/in/cloe-f/">
-          <i className={"fab fa-linkedin"}></i>
+        <Link href="https://www.linkedin.com/in/quentin-roman-67a35223b/">
+          <i>Linkedin</i>
         </Link>
-        <Link href="https://github.com/cloecloe">
-          <i className={"fab fa-github-square"}></i>
+        <Link href="https://github.com/QuentinRoman27">
+          <i>Github</i>
         </Link>
       </div>
     </section>
